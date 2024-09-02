@@ -4,11 +4,11 @@ from starlette.responses import RedirectResponse
 from databases import Database as connection
 from contextlib import closing
 
-from app.routes.user import user_route
-from app.routes.pet import pet_route
-from app.routes.house import house_route
-from app.routes.phone import phone_route
-from app.routes.store import store_route
+from app.routes.user_router import user_route
+from app.routes.pet_router import pet_route
+from app.routes.house_router import house_route
+from app.routes.phone_router import phone_route
+from app.routes.store_router import store_route
 
 
 @asynccontextmanager
