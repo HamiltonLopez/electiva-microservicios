@@ -4,10 +4,10 @@ from starlette.responses import RedirectResponse
 # Base de datos
 from database import database as connection
 from routes.user_route import user_route
-from routes.pet import pet_route
-from routes.house import house_route
-from routes.phone import phone_route
-from routes.store import store_route
+from routes.pet_route import pet_route
+from routes.house_route import house_route
+from routes.phone_route import phone_route
+from routes.store_route import store_route
 from contextlib import asynccontextmanager
 
 
