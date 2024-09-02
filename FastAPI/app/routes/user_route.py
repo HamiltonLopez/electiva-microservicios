@@ -1,6 +1,5 @@
 from fastapi import APIRouter, Body
-from models.user import User
-
+from models.user_model import User
 from database import UserModel
 
 user_route = APIRouter()
